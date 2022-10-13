@@ -1,7 +1,5 @@
 # FEM simulation
 
-## Features
-
 This program uses the finite element method (FEM) to simulate the continuum mechanics of deformable solids. It computes stress and strain (Green's strain) to get internal forces for each tetrahedron. Collision detection is implemented for the ground plane and spherical colliders. 
 
 ## Extra features
