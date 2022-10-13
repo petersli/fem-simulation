@@ -1,7 +1,12 @@
 # FEM simulation
-Peter Li
 
+## Features
 
+This program uses the finite element method (FEM) to simulate the continuum mechanics of deformable solids. It computes stress and strain (Green's strain) to get internal forces for each tetrahedron. Collision detection is implemented for the ground plane and spherical colliders. 
+
+## Extra features
+
+The code is parallelized, and the 4th-order Runge–Kutta (RK4) integrator is used to move the simulation forward in time. Eulerian (1st order) and midpoint (2nd order) integrators are also implemented, and can be used if desired.
 
 ## Running
 
@@ -13,14 +18,6 @@ To specify the path of the tetrahedral mesh to simulate, you can edit the `path`
 - WASD to move camera horizontally, QE to move camera up/down
 - P to pause/unpause simulation
 - R to restart simulation (and read in new config values)
-
-## Features
-
-This program uses the finite element method (FEM) to simulate the continuum mechanics of deformable solids. It computes stress and strain (Green's strain) to get internal forces for each tetrahedron. Collision detection is implemented for the ground plane and spherical colliders. 
-
-## Extra features
-
-The code is parallelized, and the 4th-order Runge–Kutta (RK4) integrator is used to move the simulation forward in time. Eulerian (1st order) and midpoint (2nd order) integrators are also implemented, and can be used if desired.
 
 ## Videos
 
